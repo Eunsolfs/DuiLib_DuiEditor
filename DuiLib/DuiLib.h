@@ -46,9 +46,9 @@
 #ifdef _WIN64
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../libs/DuiLib_x64_UnicodeDebug.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../libs/DuiLib_x64_UnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../libs/DuiLib_x64_UnicodeRelease.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../libs/DuiLib_x64_UnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
