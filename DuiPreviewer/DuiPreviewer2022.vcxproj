@@ -185,100 +185,100 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|Win32'">
-    <OutDir>..\bin\</OutDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|x64'">
     <LinkIncremental>false</LinkIncremental>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

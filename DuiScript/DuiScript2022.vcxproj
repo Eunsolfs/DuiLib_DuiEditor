@@ -242,99 +242,99 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>..\libs\</OutDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|x64'">
     <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
-    <OutDir>..\libs\</OutDir>
+    <IntDir>$(SolutionDir)tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)libs\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -343,6 +343,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -358,6 +359,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -406,6 +408,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -422,6 +425,7 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -473,6 +477,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -492,6 +497,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -551,6 +557,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -572,6 +579,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;UISCRIPT_EXPORTS;ANGELSCRIPT_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>angelscript\angelscript\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
