@@ -187,97 +187,97 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewer_ad</TargetName>
-    <IntDir>.\Build\Debug\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewer_ad</TargetName>
-    <IntDir>.\Build\x64\Debug\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer_a</TargetName>
-    <IntDir>.\Build\Release\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer_a</TargetName>
-    <IntDir>.\Build\x64\Release\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewerd</TargetName>
-    <IntDir>.\Build\Debug_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewerd</TargetName>
-    <IntDir>.\Build\x64\Debug_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer</TargetName>
-    <IntDir>.\Build\Release_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer</TargetName>
-    <IntDir>.\Build\x64\Release_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewer_sd</TargetName>
-    <IntDir>.\Build\xsDebug\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewer_sd</TargetName>
-    <IntDir>.\Build\x64\xsDebug\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer_s</TargetName>
-    <IntDir>.\Build\xsRelease\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer_s</TargetName>
-    <IntDir>.\Build\x64\xsRelease\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewer_usd</TargetName>
-    <IntDir>.\Build\xsDebug_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>DuiPreviewer_usd</TargetName>
-    <IntDir>.\Build\x64\xsDebug_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|Win32'">
     <OutDir>..\bin\</OutDir>
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer_us</TargetName>
-    <IntDir>.\Build\xsRelease_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <TargetName>DuiPreviewer_us</TargetName>
-    <IntDir>.\Build\x64\xsRelease_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)..\tmp\$(RootNamespace)\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

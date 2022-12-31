@@ -1,8 +1,5 @@
-
-
 .vs/
 .git/
-
 
 
 *.svn
@@ -19,3 +16,19 @@
 *.exp
 *.res
 *.idb
+
+# Build results
+[Bb]in/
+[Ll]ibs/
+[Tt]mp/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Oo]bj/
+[Ll]og/

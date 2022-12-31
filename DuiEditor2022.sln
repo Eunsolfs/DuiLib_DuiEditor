@@ -1,6 +1,7 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 16.0.32630.194
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DuiEditor2022", "DuiEditor\DuiEditor2022.vcxproj", "{15F369EF-654A-4218-B96F-B06D634B2427}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -254,7 +255,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		VisualSVNWorkingCopyRoot = .
 		SolutionGuid = {61308935-0352-4FF5-AF56-8453E1D6D276}
+		VisualSVNWorkingCopyRoot = .
 	EndGlobalSection
 EndGlobal

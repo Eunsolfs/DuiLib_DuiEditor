@@ -248,97 +248,97 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor_ad</TargetName>
-    <IntDir>.\Build\Debug\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TargetName>DuiEditor_ad</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>.\Build\x64\Debug\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor_sd</TargetName>
-    <IntDir>.\Build\xsDebug\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsDebug|x64'">
-    <TargetName>DuiEditor_sd</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>.\Build\x64\xsDebug\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditord</TargetName>
-    <IntDir>.\Build\Debug_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeDebug|x64'">
-    <TargetName>DuiEditord</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>.\Build\x64\Debug_u\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor_usd</TargetName>
-    <IntDir>.\Build\xsDebug_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeDebug|x64'">
-    <TargetName>DuiEditor_usd</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>true</LinkIncremental>
-    <IntDir>.\Build\x64\xsDebug_u\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor_a</TargetName>
-    <IntDir>.\Build\Release\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>DuiEditor_a</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>.\Build\x64\Release\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor_s</TargetName>
-    <IntDir>.\Build\xsRelease\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsRelease|x64'">
-    <TargetName>DuiEditor_s</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>.\Build\x64\xsRelease\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor</TargetName>
-    <IntDir>.\Build\Release_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnicodeRelease|x64'">
-    <TargetName>DuiEditor</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <IntDir>.\Build\x64\Release_u\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>..\bin\</OutDir>
-    <TargetName>DuiEditor_us</TargetName>
-    <IntDir>.\Build\xsRelease_u\</IntDir>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='xsUnicodeRelease|x64'">
-    <TargetName>DuiEditor_us</TargetName>
+    <TargetName>$(RootNameSpace)_$(PlatformTarget)_$(Configuration)</TargetName>
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>.\Build\x64\xsRelease_u\</IntDir>
+    <IntDir>$(ProjectDir)tmp\$(PlatformTarget)\$(Configuration)\</IntDir>
     <OutDir>..\bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
