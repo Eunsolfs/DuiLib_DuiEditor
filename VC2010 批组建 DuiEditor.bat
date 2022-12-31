@@ -1,11 +1,11 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-REM ±àÒëÃüÁî
+REM ç¼–è¯‘å‘½ä»¤
 set devenvcmd=C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.com
 
 
-REM ±àÒëµÄ½â¾ö·½°¸
+REM ç¼–è¯‘çš„è§£å†³æ–¹æ¡ˆ
 set slnFile1=DuiEditor2010.sln
 
 
