@@ -1295,6 +1295,7 @@
     <ClInclude Include="Core\UIXmlAttribute.h" />
     <ClInclude Include="Core\UIXmlDocument.h" />
     <ClInclude Include="Core\UIXmlNode.h" />
+    <ClInclude Include="DuiLib.h" />
     <ClInclude Include="Layout\UIAnimationTabLayout.h" />
     <ClInclude Include="Layout\UIChildLayout.h" />
     <ClInclude Include="Layout\UIChildWindow.h" />
@@ -1319,6 +1320,7 @@
     <ClInclude Include="Utils\observer_impl_base.h" />
     <ClInclude Include="Utils\TrayIcon.h" />
     <ClInclude Include="Utils\UIApplication.h" />
+    <ClInclude Include="Utils\UIDataExchange.hpp" />
     <ClInclude Include="Utils\UIDelegate.h" />
     <ClInclude Include="Utils\UIDialog.h" />
     <ClInclude Include="Utils\UIForm.h" />
