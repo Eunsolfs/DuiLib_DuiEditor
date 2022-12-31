@@ -638,6 +638,12 @@
     <ClInclude Include="Control\UIQRCode.h">
       <Filter>Header Files\Control</Filter>
     </ClInclude>
+    <ClInclude Include="DuiLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\UIDataExchange.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Utils\Flash11.tlb" />

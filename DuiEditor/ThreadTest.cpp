@@ -1,4 +1,4 @@
-// ThreadTestForm.cpp : ÊµÏÖÎÄ¼ş
+ï»¿// ThreadTestForm.cpp : å®ç°æ–‡ä»¶
 //
 
 #include "stdafx.h"
@@ -104,7 +104,7 @@ BOOL CThreadTest::InitInstance()
 		&m_piProcInfo);  // receives PROCESS_INFORMATION
 	if(!bCreate)
 	{
-		InsertMsg(_T("Æô¶¯²âÊÔ´°Ìå½ø³ÌÊ§°Ü"));
+		InsertMsg(_T("å¯åŠ¨æµ‹è¯•çª—ä½“è¿›ç¨‹å¤±è´¥"));
 		return FALSE;
 	}
 
@@ -131,4 +131,4 @@ BEGIN_MESSAGE_MAP(CThreadTest, CWinThread)
 END_MESSAGE_MAP()
 
 
-// CThreadTestForm ÏûÏ¢´¦Àí³ÌĞò
+// CThreadTestForm æ¶ˆæ¯å¤„ç†ç¨‹åº

@@ -434,7 +434,7 @@ void CScriptEditorView::BraceHighlight()
 
 	int pos = sci.sci_GetCurrentPos();
 	int startbe, endbe;
-	m_arrBrace.empty();
+	//m_arrBrace.empty(); 函数体内不存在对它的调用，没啥用
 	if(FindBrace("[]", pos, startbe, endbe))
 	{
 		int lend = sci.sci_BraceMatch(startbe, endbe);

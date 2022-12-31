@@ -129,61 +129,61 @@ UISCRIPT_API void __stdcall DeleteScriptHelper(IScriptHelper *pHelper);
 #ifdef _WIN64
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64usd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_xsUnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64us.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_xsUnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64sd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_xsDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64s.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_xsRelease.lib"))
 #		endif
 #	endif
 #else
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_usd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_xsUnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_us.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_xsUnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_sd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_xsDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_s.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_xsRelease.lib"))
 #		endif
 #	endif
 #endif
 
-#else //#ifndef UISCRIPT_EXPORTS
+#else //#ifdef UILIB_STATIC
 
 #ifdef _WIN64
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64ud.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_UnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64u.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_UnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64d.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_Debug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_64.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x64_Release.lib"))
 #		endif
 #	endif
 #else
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_ud.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_UnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_u.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_UnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript_d.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_Debug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiScript.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiScript_x86_Release.lib"))
 #		endif
 #	endif
 #endif

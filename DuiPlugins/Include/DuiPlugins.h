@@ -80,29 +80,29 @@ UILIB_EXP_API DuiLib::CControlUI *CreateControl(LPCTSTR pstrClass);
 #ifdef _WIN64
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64usd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_xsUnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64us.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_xsUnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64sd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_xsDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64s.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_xsRelease.lib"))
 #		endif
 #	endif
 #else
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_usd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_xsUnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_us.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_xsUnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_sd.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_xsDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_s.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_xsRelease.lib"))
 #		endif
 #	endif
 #endif
@@ -112,29 +112,29 @@ UILIB_EXP_API DuiLib::CControlUI *CreateControl(LPCTSTR pstrClass);
 #ifdef _WIN64
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64ud.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_UnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64u.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_UnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64d.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_Debug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_64.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x64_Release.lib"))
 #		endif
 #	endif
 #else
 #	ifdef _UNICODE
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_ud.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_UnicodeDebug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_u.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_UnicodeRelease.lib"))
 #		endif
 #	else
 #		ifdef _DEBUG
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins_d.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_Debug.lib"))
 #		else
-#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../Lib/DuiPlugins.lib"))
+#			pragma comment(lib,  _LIBPATH_(__FILE__,   "/../../../libs/DuiPlugins_x86_Release.lib"))
 #		endif
 #	endif
 #endif
