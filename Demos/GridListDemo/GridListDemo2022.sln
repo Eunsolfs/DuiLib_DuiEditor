@@ -1,7 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2019
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GridListDemo2019", "GridListDemo\GridListDemo2019.vcxproj", "{9C15F425-2201-4EA9-924B-0026829ED6C0}"
+# Visual Studio Version 17
+VisualStudioVersion = 16.0.32630.194
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GridListDemo2022", "GridListDemo\GridListDemo2022.vcxproj", "{9C15F425-2201-4EA9-924B-0026829ED6C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

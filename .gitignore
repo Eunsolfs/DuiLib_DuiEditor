@@ -1,10 +1,11 @@
 
 
+.vs/
+.git/
 
 
 
 *.svn
-/.vs/DuiEditor2019/v16
 *.dll
 *.pdb
 *.exe
