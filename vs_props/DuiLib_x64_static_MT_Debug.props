@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="DuiLib_rootdir">
+    <Root>F:\VS_Project\C++\C++UI\DuiLib_DuiEditor\DuiLib</Root>
+  </PropertyGroup>
+  <PropertyGroup Label="DuiLib_Variables">
+    <DuiLibIncludeDirectories>F:\VS_Project\C++\C++UI\DuiLib_DuiEditor\DuiLib;</DuiLibIncludeDirectories>
+    <DuiLibLibraryDirectories>F:\VS_Project\C++\C++UI\DuiLib_DuiEditor\libs;</DuiLibLibraryDirectories>
+    <DuiLibLibraries>DuiLib_x64_xsUnicodeDebug.lib;</DuiLibLibraries>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LocalDebuggerEnvironment>PATH=%PATH%;</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(DuiLibIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(DuiLibLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(DuiLibLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(DuiLibIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(DuiLibIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
